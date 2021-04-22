@@ -1,0 +1,61 @@
+.Container {
+  align-items: center;
+
+  flex-direction: row;
+  display: flex;
+
+  width: 100%;
+
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+  z-index: 5;
+}
+
+.Header {
+  font-family: "Roboto", sans-serif;
+  margin-left: 33px;
+  font-size: 35px;
+
+  font-weight: 500;
+  color: #4f89e0;
+}
+
+.Btninheader {
+  margin-left: auto;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: 500;
+  margin-right: 20px;
+  font-size: 24px;
+  height: 40px;
+
+  color: rgba(255, 255, 255, 0.75);
+  background-color: #332e2e;
+
+  max-width: 200px;
+  border-radius: 18px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-style: none;
+
+  outline: none;
+}
+
+.Container-btns-in-header {
+  display: flex;
+  margin-right: 10px;
+  margin-left: auto;
+}
+@media screen and (max-width: 640px) {
+  .Btninheader {
+    display: none;
+  }
+
+  .Container {
+    justify-content: center;
+  }
+}

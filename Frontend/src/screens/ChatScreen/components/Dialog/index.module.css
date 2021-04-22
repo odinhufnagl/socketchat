@@ -1,0 +1,11 @@
+.Inputindialog {
+    border-radius: 20px;
+    width: 60%;
+    height: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(219, 219, 219);
+    margin-bottom: 20px;
+    outline: none;
+  }
+  

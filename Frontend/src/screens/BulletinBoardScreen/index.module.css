@@ -1,0 +1,90 @@
+.Image {
+  width: 100%;
+  height: auto;
+
+  min-height: 100%;
+
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+}
+
+.Allbuttons {
+  width: 315px;
+  height: 50px;
+
+  float: right;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  right: 40px;
+  bottom: 15px;
+  z-index: 2;
+}
+
+.Buttonbottomright {
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  border-width: 0;
+
+  box-shadow: 6px 6px 10px rgb(15, 15, 15);
+
+  justify-content: center;
+  display: flex;
+  outline: none;
+}
+
+.Buttontext {
+  font-family: "Roboto", sans-serif;
+  color: black;
+
+  font-weight: 400;
+  font-size: 15px;
+
+  align-self: center;
+}
+
+#input[type="file"] {
+  display: none;
+  position: absolute;
+}
+
+.Note {
+  align-items: center;
+  justify-content: center;
+
+  word-wrap: break-word;
+
+  background-position: center;
+  display: flex;
+  overflow-y: auto;
+
+  background-repeat: no-repeat;
+}
+
+.Bignote {
+  background-image: url("http://assets.stickpng.com/thumbs/5b06c19efad1cae04539afe0.png");
+  background-size: 100% 170%;
+}
+
+.Smallnote {
+  background-image: url("../../5b06c174fad1cae04539afdb.png");
+
+  background-size: 100% 100%;
+}
+
+.Standardnote {
+  background-color: white;
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  margin-top: 10px;
+  box-shadow: 6px 6px 10px black;
+}

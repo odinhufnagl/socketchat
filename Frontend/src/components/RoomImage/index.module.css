@@ -1,0 +1,19 @@
+.Container {
+  width: 65px;
+  height: 65px;
+
+  border-radius: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.Image {
+  height: 90%;
+  width: 90%;
+  border-radius: 300px;
+  margin: 20px;
+  background-image: url("../../chat-benefits.png");
+  background-color: black;
+}

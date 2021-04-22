@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+h2 {
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.react-resizable {
+  position: relative;
+}
+.react-resizable-handle {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+
+  bottom: 0;
+
+  right: 0;
+  background: url("http://assets.stickpng.com/thumbs/585e4747cb11b227491c3382.png");
+  background-position: bottom right;
+  padding: 0 3px 3px 0;
+  background-size: 10px;
+
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  box-sizing: border-box;
+  cursor: se-resize;
+}
+
+button {
+  outline: none
+}
+
+button:hover {
+  background-color: #999999;;
+  transition: 0.3s;
+}

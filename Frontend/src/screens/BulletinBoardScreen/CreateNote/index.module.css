@@ -1,0 +1,103 @@
+.Container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+
+  flex-direction: column;
+}
+
+.Textarea {
+  width: 100%;
+  height: 200px;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  border-radius: 20px;
+  border-width: 2px;
+  border-color: #8aade2;
+  border-style: solid;
+  align-self: center;
+  justify-self: center;
+  margin-bottom: 30px;
+  outline: none;
+}
+
+.Button {
+  align-items: center;
+  justify-content: center;
+  align-self: flex-end;
+  display: flex;
+  width: 130px;
+  height: 50px;
+  border-radius: 20px;
+  border-width: 2px;
+  border-color: #8aade2;
+  border-style: solid;
+  background-color: transparent;
+  margin-left: 10px;
+  outline: none;
+
+  float: right;
+}
+.Container_choose_style {
+  height: 100px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: center;
+  border-radius: 20px;
+  border-width: 2px;
+  border-color: #8aade2;
+  border-style: solid;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.Notebig {
+  background-image: url("http://assets.stickpng.com/thumbs/5b06c19efad1cae04539afe0.png");
+
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+}
+
+.Notesmall {
+  background-image: url("../../../5b06c174fad1cae04539afdb.png");
+
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+}
+.Notestandardcontainer {
+  width: 100px;
+  height: 100px;
+  display: flex;
+
+  justify-content: center;
+}
+.Notestandard {
+  background-color: white;
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  margin-top: 10px;
+  box-shadow: 3px 3px 5px black;
+}
+
+.Marked {
+  border-width: 1px;
+  border-color: #8aade2;
+  border-style: solid;
+  background-color: rgb(247, 247, 247);
+}
